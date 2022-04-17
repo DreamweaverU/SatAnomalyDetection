@@ -551,6 +551,8 @@ Accuracy_final=mean(Accuracy)
 
 # %%
 
+## New Test Bayesian LSTM AE
+
 
 
 
