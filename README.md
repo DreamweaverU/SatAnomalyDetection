@@ -54,9 +54,9 @@ CUDA: 11.0
 Clone this repository, and then install it and its requirements. It should be something similar to this:
 
 ```
-git clone https://github.com/aminmalekisadr/Genetic-Algorithm-Guided-Satellite-Anomaly-Detection.git
-pip3 install -e Genetic-Algorithm-Guided-Satellite-Anomaly-Detection/
-pip3 install -r Genetic-Algorithm-Guided-Satellite-Anomaly-Detection/requirements.txt
+git clone https://github.com/DreamweaverU/SatAnomalyDetection.git
+pip3 install -e SatAnomalyDetection/
+pip3 install -r SatAnomalyDetectio/requirements.txt
 ```
 
 ### Dataset
