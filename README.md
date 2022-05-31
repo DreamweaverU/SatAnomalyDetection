@@ -2,8 +2,10 @@
 
 File list:
 * main.py contains the code of our proposed Baysian LSTM method.
-* the Jupyter notebook file contains the methods we compared with.
-* Nmaxsearch.py is the code for search N_max using in the post-processing.
+* the Jupyter notebook file contains the methods we compared with and also our method and results of each Figure separately.
+* The Benchmarking for reproducing the results of competative papers by using Orion Package (Benchmarking needs having a patience)
+* NASA Satellite Data files
+
 
 ## Papers:
 The source code for the paper titled "An Anomaly Detection Method for Satellites using Monte Carlo Dropout", submitted to IEEE Trans. on Aerospace and Electronic Systems, Jan 2022.
@@ -15,11 +17,10 @@ By default, consider using the following:
 ```
 @Article{Malekisadr2022,
   author="Mohammadamin Malekisadr, Yeying Zhu, Peng Hu",
-  title="{Genetic Algorithm Guided Ensemble of Neural
-Networks for Satellite Anomaly Detection}",
+  title="{"An Anomaly Detection Method for Satellites using Monte Carlo Dropout}",
   journal="IEEE Transactions on Aerospace and Electronic Systems ",
   year="2022",
-  month="March",
+  month="Jan",
   day="13",
 }
 ```
@@ -48,3 +49,20 @@ Pydot: 1.0.29
 GraphViz: 2.38.0
 CUDA: 11.0
 ```
+``
+### Installation
+Clone this repository, and then install it and its requirements. It should be something similar to this:
+
+```
+git clone https://github.com/aminmalekisadr/Genetic-Algorithm-Guided-Satellite-Anomaly-Detection.git
+pip3 install -e Genetic-Algorithm-Guided-Satellite-Anomaly-Detection/
+pip3 install -r Genetic-Algorithm-Guided-Satellite-Anomaly-Detection/requirements.txt
+```
+
+### Dataset
+We use the satellite telemetry data from NASA. The dataset comes from two spacecrafts: the Soil Moisture Active Passive satellite (SMAP) and the Curiosity Rover on Mars (MSL).
+There are 82 signals available in the NASA dataset. We found that 54 of the 82 signals  to be continuous by inspection, and the remaining signals were discrete.  We only consider the time-series sequences from the telemetry signals in our evaluation, where the telemetry values can be discrete or continues in these signals.
+
+The dataset is available [here](https://s3-us-west-2.amazonaws.com/telemanom/data.zip). If the link is broken or something is not working properly, please contact me through email (aminmalekisadr@gmail.com).
+## Experiments
+### Configuration
