@@ -475,7 +475,6 @@ for name in SMAP:
 
 
 
-
         realanomaly = label_data['index']
 
         predicter=list(range(len(test_uncertainty2)))
