@@ -70,17 +70,15 @@ curl -O https://s3-us-west-2.amazonaws.com/telemanom/data.zip && unzip data.zip 
 ## Experiments
 These configuration settings at the .py and .ipynb files can reproduce the results of this paper, and the available options are either self-explainatory, or have plenty of comments in the file.
 ### Configuration
-To reproduce the results of this paper, please 
-
-
-
-### Running an Experiment
+All the results are set with custom random seed (for all the random variable like random numpy arrays or random python initialization or random tensors in torch) To reproduce the results of this paper. By running the codes with this random seed, you will be able to reproduce the same results. 
 
 ## Future Direction:
+In future, we aim to see how merging TaDgan and our approach can lead to a better results. We aim to propose a general pipline to detect any anomaly in all the datasets. Any collaboration in this regards will be highly appreciated. Please contact me through email (aminmalekisadr@gmail.com) for possible collaborations. 
 ## License
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 ## Acknowledgments:
 * **Yeying Zhu** and **Peng Hu**, my research supervisors;
 * **University of Waterloo**, who hosted my research;
 * **National Research Council Canada**, who funded my Research.
+* ** The authors of this paper and repo also appreciate the anonymous reviewers of IEEE TAES and also the Associate Editor that handeling the process.   
 
