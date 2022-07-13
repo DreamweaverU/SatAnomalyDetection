@@ -67,6 +67,9 @@ The dataset is available [here](https://s3-us-west-2.amazonaws.com/telemanom/dat
 ## Experiments
 These configuration settings at the .py and .ipynb files can reproduce the results of this paper, and the available options are either self-explainatory, or have plenty of comments in the file.
 ### Configuration
+To reproduce the results of this paper, please 
+
+
 
 ### Running an Experiment
 
