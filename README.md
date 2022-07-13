@@ -65,9 +65,11 @@ There are 82 signals available in the NASA dataset. We found that 54 of the 82 s
 
 The dataset is available [here](https://s3-us-west-2.amazonaws.com/telemanom/data.zip). If the link is broken or something is not working properly, please contact me through email (aminmalekisadr@gmail.com).
 ## Experiments
+These configuration settings at the .py and .ipynb files can reproduce the results of this paper, and the available options are either self-explainatory, or have plenty of comments in the file.
 ### Configuration
 
 ### Running an Experiment
+
 ## Future Direction:
 ## License
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
