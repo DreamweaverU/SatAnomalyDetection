@@ -1,5 +1,8 @@
 # Satellite Anomaly Detection
 
+Source code author: ‪Mohammad Amin Maleki Sadr, Post-doctoral Fellow, University of Waterloo
+Email: aminmalekisadr@gmail.com, mohammadamin.malekisadr@uwaterloo.ca
+
 File list:
 * main.py contains the code of our proposed Baysian LSTM method.
 * the Jupyter notebook file contains the methods we compared with and also our method and results of each Figure separately.
@@ -8,11 +11,11 @@ File list:
 
 
 ## Papers:
-The source code for the paper titled "An Anomaly Detection Method for Satellites using Monte Carlo Dropout", submitted to IEEE Trans. on Aerospace and Electronic Systems, Jan 2022.
-### Citation:
-There are one main citations for this work.
+The source code is for the paper titled "An Anomaly Detection Method for Satellites using Monte Carlo Dropout", submitted to IEEE Trans. on Aerospace and Electronic Systems, Jan 2022.
 
-By default, consider using the following:
+### Citation:
+
+Please cite our article in the following if our work/code is used/referenced:
 
 ```
 @Article{Malekisadr2022,
@@ -61,7 +64,8 @@ pip3 install -r SatAnomalyDetectio/requirements.txt
 
 ### Dataset
 We use the satellite telemetry data from NASA. The dataset comes from two spacecrafts: the Soil Moisture Active Passive satellite (SMAP) and the Curiosity Rover on Mars (MSL).
-There are 82 signals available in the NASA dataset. We found that 54 of the 82 signals  to be continuous by inspection, and the remaining signals were discrete.  We only consider the time-series sequences from the telemetry signals in our evaluation, where the telemetry values can be discrete or continues in these signals.
+
+There are 82 signals available in the NASA dataset. We found that 54 of the 82 signals  to be continuous by inspection, and the remaining signals were discrete. We only consider the time-series sequences from the telemetry signals in our evaluation, where the telemetry values can be discrete or continuous in these signals.
 
 The dataset is available [here](https://s3-us-west-2.amazonaws.com/telemanom/data.zip). If the link is broken or something is not working properly, please contact me through email (aminmalekisadr@gmail.com). By using the following command from root of repo, you can also curl and unzip data:
 ```
@@ -72,8 +76,6 @@ These configuration settings at the .py and .ipynb files can reproduce the resul
 ### Configuration
 All the results are set with custom random seed (for all the random variable like random numpy arrays or random python initialization or random tensors in torch) To reproduce the results of this paper. By running the codes with this random seed, you will be able to reproduce the same results. 
 
-## Future Direction:
-In future, we aim to see how merging TaDgan and our approach can lead to a better results. We aim to propose a general pipline to detect any anomaly in all the datasets. Any collaboration in this regards will be highly appreciated. Please contact me through email (aminmalekisadr@gmail.com) for possible collaborations. 
 ## License
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 ## Acknowledgments:
