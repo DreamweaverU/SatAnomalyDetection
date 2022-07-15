@@ -1,4 +1,4 @@
-# Satellite Anomaly Detection Using MC dropout method
+# An Anomaly Detection Method for Satellites Using Monte Carlo Dropout
 
 Source code author: ‪Mohammad Amin Maleki Sadr, Post-doctoral Fellow, University of Waterloo
 Email: aminmalekisadr@gmail.com, mohammadamin.malekisadr@uwaterloo.ca
