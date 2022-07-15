@@ -1,4 +1,4 @@
-# Satellite Anomaly Detection
+# Satellite Anomaly Detection Using MC dropout method
 
 Source code author: ‪Mohammad Amin Maleki Sadr, Post-doctoral Fellow, University of Waterloo
 Email: aminmalekisadr@gmail.com, mohammadamin.malekisadr@uwaterloo.ca
