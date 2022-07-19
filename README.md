@@ -67,7 +67,7 @@ We use the satellite telemetry data from NASA. The dataset comes from two spacec
 
 There are 82 signals available in the NASA dataset. We found that 54 of the 82 signals  to be continuous by inspection, and the remaining signals were discrete. We only consider the time-series sequences from the telemetry signals in our evaluation, where the telemetry values can be discrete or continuous in these signals.
 
-The dataset is available [here](https://s3-us-west-2.amazonaws.com/telemanom/data.zip). If the link is broken or something is not working properly, please contact me through email (aminmalekisadr@gmail.com). By using the following command from root of repo, you can also curl and unzip data:
+The dataset is available [here](https://s3-us-west-2.amazonaws.com/telemanom/data.zip). If the link is broken or something is not working properly, please post it to Issues. By using the following command from root of repo, you can also curl and unzip data:
 ```
 curl -O https://s3-us-west-2.amazonaws.com/telemanom/data.zip && unzip data.zip && rm data.zip
 ```
